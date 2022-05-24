@@ -134,6 +134,8 @@ COMMIT;
 
 /*
 
+Demo: INSERT INTO `user table`(`id`, `username`, `age`, `phone`, `address`, `created_at`, `updated_at`) VALUES ('[value-1]','[value-2]','[value-3]','[value-4]','[value-5]','[value-6]','[value-7]')
+
 INSERT INTO `user table`(`username`, `age`, `phone`, `address`) VALUES ('Kalam','25','01785372439','Kustia, Bangladesh')
 
 */
@@ -145,6 +147,7 @@ INSERT INTO `user table`(`username`, `age`, `phone`, `address`) VALUES ('Kalam',
 
 /*
 
+Demo: UPDATE `user table` SET `id`='[value-1]',`username`='[value-2]',`age`='[value-3]',`phone`='[value-4]',`address`='[value-5]',`created_at`='[value-6]',`updated_at`='[value-7]' WHERE 1
 UPDATE `user table` SET `username`='Murad',`age`='40' WHERE 1
 
 
@@ -156,6 +159,8 @@ UPDATE `user table` SET `username`='Murad',`age`='40' WHERE 1
 /* ================================Delete Data Code ======================*/
 
 /*
+
+Demo:DELETE FROM `user table` WHERE 0
 
 DELETE FROM `user table` WHERE 2
 
