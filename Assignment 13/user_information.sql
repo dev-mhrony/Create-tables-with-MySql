@@ -125,3 +125,41 @@ COMMIT;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+
+
+
+
+
+/* ================================Inpute Data Code ======================*/
+
+/*
+
+INSERT INTO `user table`(`username`, `age`, `phone`, `address`) VALUES ('Kalam','25','01785372439','Kustia, Bangladesh')
+
+*/
+
+
+
+
+/* ================================Update Data Code ======================*/
+
+/*
+
+UPDATE `user table` SET `username`='Murad',`age`='40' WHERE 1
+
+
+*/
+
+
+
+
+/* ================================Delete Data Code ======================*/
+
+/*
+
+DELETE FROM `user table` WHERE 2
+
+*/
+
+
+
